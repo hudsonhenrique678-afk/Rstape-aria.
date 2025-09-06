@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RS Tapeçaria Automotiva</title>
+<meta name="description" content="RS Tapeçaria Automotiva - Restauração, estofamento e tapeçaria de veículos.">
+<meta name="keywords" content="tapeçaria automotiva, estofamento, restauração de bancos, carro, interior automotivo">
+<meta name="author" content="RS Tapeçaria Automotiva">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  color: white;
+  overflow-x: hidden;
+}
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+header {
+  background: rgba(0,0,0,0.7);
+  padding:20px 0;
+  text-align:center;
+  position: relative;
+  z-index: 1;
+}
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+section {
+  padding:50px 20px;
+  background: rgba(0,0,0,0.5);
+  margin: 20px;
+  border-radius:10px;
+  position: relative;
+  z-index: 1;
+}
+h1, h2 { text-align:center; }
+.servicos { display:flex; flex-wrap:wrap; justify-content:center; }
+.servico { width:250px; margin:20px; padding:20px; border:1px solid #ccc; border-radius:10px; background: rgba(0,0,0,0.6); box-shadow:0 2px 6px rgba(0,0,0,0.5); transition:transform 0.3s; }
+.servico:hover { transform:scale(1.05); }
+.galeria { display:flex; flex-wrap:wrap; justify-content:center; }
+.galeria img { width:300px; height:200px; object-fit:cover; margin:10px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.5); transition: transform 0.5s; }
+.galeria img:hover { transform: scale(1.1); }
+footer { background: rgba(0,0,0,0.7); text-align:center; padding:20px 0; position: relative; z-index: 1; }
+a.button { display:inline-block; background:#28a745; color:white; padding:10px 20px; border-radius:5px; text-decoration:none; margin:5px; transition:background 0.3s; }
+a.button:hover { background:#218838; }
+.buttons { text-align:center; margin-top:20px; }
+form { max-width:500px; margin:20px auto; padding:20px; border:1px solid #ccc; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.5); background: rgba(0,0,0,0.6); }
+form label { display:block; margin-bottom:8px; font-weight:bold; }
+form input, form textarea { width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px; }
+form button { background:#28a745; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; }
+form button:hover { background:#218838; }
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="video-background">
+  <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+</video>
+
+<header>
+<h1>RS Tapeçaria Automotiva</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#servicos">Serviços</a>
+<a href="#galeria">Galeria</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>Transformamos o interior do seu carro!</h2>
+<p style="text-align:center;">Na RS Tapeçaria Automotiva oferecemos serviços de restauração e estofamento de veículos.</p>
+<div class="buttons">
+<a class="button" href="https://wa.me/5511930713563" target="_blank">💬 Falar no WhatsApp</a>
+<a class="button" href="https://www.instagram.com/rstapecaria_automotiva" target="_blank">📸 Instagram</a>
+</div>
+</section>
+
+<section id="servicos">
+<h2>Nossos Serviços</h2>
+<div class="servicos">
+  <div class="servico">
+    <h3>Restauração de Estofados</h3>
+    <p>Recuperamos bancos, portas e tetos com qualidade e acabamento profissional.</p>
+  </div>
+  <div class="servico">
+    <h3>Troca de Estofados</h3>
+    <p>Substituímos tecidos e couros desgastados, deixando seu carro como novo.</p>
+  </div>
+  <div class="servico">
+    <h3>Tapeçaria Automotiva</h3>
+    <p>Serviços completos de tapeçaria, garantindo conforto e estilo para seu veículo.</p>
+  </div>
+</div>
+</section>
+
+<section id="galeria">
+<h2>Galeria Antes / Depois</h2>
+<div class="galeria">
+  <img src="https://i.postimg.cc/3yWJnvf3/image.jpg" alt="Imagem 1">
+  <img src="https://i.postimg.cc/bZyvSMQD/image.jpg" alt="Imagem 2">
+  <img src="https://i.postimg.cc/JGcnnmBC/image.jpg" alt="Imagem 3">
+  <img src="https://i.postimg.cc/ns5V5hNB/image.jpg" alt="Imagem 4">
+  <img src="https://i.postimg.cc/sGCjj0j2/image.jpg" alt="Imagem 5">
+  <img src="https://i.postimg.cc/ZBdYhhhg/image.jpg" alt="Imagem 6">
+  <img src="https://i.postimg.cc/SJqSH51T/image.jpg" alt="Imagem 7">
+  <img src="https://i.postimg.cc/K4tcqFf3/image.jpg" alt="Imagem 8">
+  <img src="https://i.postimg.cc/ct7srMCB/image.jpg" alt="Imagem 9">
+  <img src="https://i.postimg.cc/210SQwwH/image.jpg" alt="Imagem 10">
+</div>
+</section>
+
+<section id="contato">
+<h2>Contato</h2>
+<form>
+  <label for="nome">Nome</label>
+  <input type="text" id="nome" name="nome" required>
+  
+  <label for="email">E-mail</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="mensagem">Mensagem</label>
+  <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+  
+  <button type="submit">Enviar</button>
+</form>
+</section>
+
+<footer>
+<p>© 2025 RS Tapeçaria Automotiva</p>
+</footer>
+
+</body>
+</html>
